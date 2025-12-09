@@ -5,13 +5,13 @@
       "id": "did:web:affrncsp.github.io:tr3#key-1",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr3",
-      "publicKeyMultibase": "zDnaeRK1LNSPjrGwnoNM9NCK5udQK9s5LaqukE7e5v5spQ1aG"
+      "publicKeyMultibase": "zDnaexMwXmvV6ZGcmqpm3tD6u2zknupKKEwsczRC2LGFRqWA4"
     },
     {
       "id": "did:web:affrncsp.github.io:tr3#key-2",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr3",
-      "publicKeyMultibase": "zQ3shT43az7QMX12XnuyeGaLgsrjL5h9pxgwZr9ReQJ6ay8Lv"
+      "publicKeyMultibase": "zQ3shfrAUqkKDYwV9MozmDwsK57sdwHRqzbV4BEi17HEZA2YC"
     }
   ],
   "authentication": [
