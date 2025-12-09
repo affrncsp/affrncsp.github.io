@@ -1,31 +1,31 @@
 {
-  "id": "did:web::affrncsp.github.io:tr1",
+  "id": "did:web:affrncsp.github.io:tr1",
   "verificationMethod": [
     {
-      "id": "did:web::affrncsp.github.io:tr1#key-1",
+      "id": "did:web:affrncsp.github.io:tr1#key-1",
       "type": "Multikey",
-      "controller": "did:web::affrncsp.github.io:tr1",
-      "publicKeyMultibase": "z6MkkvbF9Yzdjh1t2DDhw14wZ3jzuQYxo1VRJJDuCmUHJFQe"
+      "controller": "did:web:affrncsp.github.io:tr1",
+      "publicKeyMultibase": "z6MkmH2BKg1uRNsAngw3bv6WDbetvebTmXExL6k6kBzYQapR"
     },
     {
-      "id": "did:web::affrncsp.github.io:tr1#key-2",
+      "id": "did:web:affrncsp.github.io:tr1#key-2",
       "type": "Multikey",
-      "controller": "did:web::affrncsp.github.io:tr1",
-      "publicKeyMultibase": "z6LSbhSQHV5jJKKwvHSoz19nkNgvGc7aKgPsoJw6pgZd1M5c"
+      "controller": "did:web:affrncsp.github.io:tr1",
+      "publicKeyMultibase": "z6LSsGK7C9PZsrJZ3SyHgnVR8UzjCo32n1nVY4tcFHmtnGZC"
     }
   ],
   "authentication": [
-    "did:web::affrncsp.github.io:tr1#key-1"
+    "did:web:affrncsp.github.io:tr1#key-1"
   ],
   "assertionMethod": [
-    "did:web::affrncsp.github.io:tr1#key-1"
+    "did:web:affrncsp.github.io:tr1#key-1"
   ],
   "keyAgreement": [
-    "did:web::affrncsp.github.io:tr1#key-2"
+    "did:web:affrncsp.github.io:tr1#key-2"
   ],
   "service": [
     {
-      "id": "did:web::affrncsp.github.io:tr1#service",
+      "id": "did:web:affrncsp.github.io:tr1#service",
       "type": [
         "DIDCommMessaging"
       ],
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "did:web::affrncsp.github.io:tr1#auth",
+      "id": "did:web:affrncsp.github.io:tr1#auth",
       "type": [
         "Authentication"
       ],
