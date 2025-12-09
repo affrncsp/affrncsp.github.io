@@ -5,13 +5,13 @@
       "id": "did:web:affrncsp.github.io:tr4#key-1",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr4",
-      "publicKeyMultibase": "zDnaeqJqEgTu98PzTa61Dsrsb9xASXKGtXs4B9AW4etLoeY4B"
+      "publicKeyMultibase": "zDnaeTLXBLVMRS37EGMWGo9sJX5b3vjRUN7vcEzgauBF9SGyL"
     },
     {
       "id": "did:web:affrncsp.github.io:tr4#key-2",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr4",
-      "publicKeyMultibase": "zQ3shpzMdcwEbmg5tvTqTSzhndunrNANzQhDXYT9C69vtjZD7"
+      "publicKeyMultibase": "zQ3shq93ppokCq6GsmEsoA6TQVTak3Rcj34CbdtQjk9BJEvtu"
     }
   ],
   "authentication": [
@@ -34,7 +34,7 @@
           "accept": [
             "didcomm/v2"
           ],
-          "uri": "https://metal-alarm.mediator.affinidi.io/"
+          "uri": "http://localhost:7037/mediator/v1"
         }
       ]
     },
@@ -48,7 +48,7 @@
           "accept": [
             "didcomm/v2"
           ],
-          "uri": "https://metal-alarm.mediator.affinidi.io//authenticate"
+          "uri": "http://localhost:7037/mediator/v1/authenticate"
         }
       ]
     }
