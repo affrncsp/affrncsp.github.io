@@ -1,0 +1,56 @@
+{
+  "id": "did:web:affrncsp.github.io:tr4",
+  "verificationMethod": [
+    {
+      "id": "did:web:affrncsp.github.io:tr4#key-1",
+      "type": "Multikey",
+      "controller": "did:web:affrncsp.github.io:tr4",
+      "publicKeyMultibase": "zDnaeqJqEgTu98PzTa61Dsrsb9xASXKGtXs4B9AW4etLoeY4B"
+    },
+    {
+      "id": "did:web:affrncsp.github.io:tr4#key-2",
+      "type": "Multikey",
+      "controller": "did:web:affrncsp.github.io:tr4",
+      "publicKeyMultibase": "zQ3shpzMdcwEbmg5tvTqTSzhndunrNANzQhDXYT9C69vtjZD7"
+    }
+  ],
+  "authentication": [
+    "did:web:affrncsp.github.io:tr4#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:affrncsp.github.io:tr4#key-1"
+  ],
+  "keyAgreement": [
+    "did:web:affrncsp.github.io:tr4#key-2"
+  ],
+  "service": [
+    {
+      "id": "did:web:affrncsp.github.io:tr4#service",
+      "type": [
+        "DIDCommMessaging"
+      ],
+      "serviceEndpoint": [
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "uri": "https://metal-alarm.mediator.affinidi.io/"
+        }
+      ]
+    },
+    {
+      "id": "did:web:affrncsp.github.io:tr4#auth",
+      "type": [
+        "Authentication"
+      ],
+      "serviceEndpoint": [
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "uri": "https://metal-alarm.mediator.affinidi.io//authenticate"
+        }
+      ]
+    }
+  ]
+}
