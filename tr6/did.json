@@ -5,17 +5,14 @@
       "id": "did:web:affrncsp.github.io:tr6#key-1",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr6",
-      "publicKeyMultibase": "zDnaewcRE3MiwLx5JEKyAn4r4kAzaXPehdTF6mDxTfojMBfoA"
+      "publicKeyMultibase": "zDnaeitFnzAhFd6REy4AnC5E8cHT7p7UqtGNyVo8c8oErbLBC"
     },
     {
       "id": "did:web:affrncsp.github.io:tr6#key-2",
       "type": "Multikey",
       "controller": "did:web:affrncsp.github.io:tr6",
-      "publicKeyMultibase": "zQ3shw7wTe9ytb8oRPfUFmATLDHUBhEAZgyrZbF2XyRLweysB"
+      "publicKeyMultibase": "zQ3shZa816gWdsdDAxLNwyCU9xH3Zvfosy9rV2ypDZsWZn2RL"
     }
-  ],
-  "authentication": [
-    "did:web:affrncsp.github.io:tr6#key-1"
   ],
   "assertionMethod": [
     "did:web:affrncsp.github.io:tr6#key-1"
@@ -29,28 +26,11 @@
       "type": [
         "DIDCommMessaging"
       ],
-      "serviceEndpoint": [
-        {
-          "accept": [
-            "didcomm/v2"
-          ],
-          "uri": "https://metal-alarm.mediator.affinidi.io/"
-        }
-      ]
-    },
-    {
-      "id": "did:web:affrncsp.github.io:tr6#auth",
-      "type": [
-        "Authentication"
-      ],
-      "serviceEndpoint": [
-        {
-          "accept": [
-            "didcomm/v2"
-          ],
-          "uri": "https://metal-alarm.mediator.affinidi.io//authenticate"
-        }
-      ]
+      "serviceEndpoint": "did:web:pencil-channel.mediator.affinidi.io"
     }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
   ]
 }
