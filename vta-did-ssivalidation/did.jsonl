@@ -1,1 +1,84 @@
-{"versionId":"1-QmcBuFsmgdkxVBMsV6wmrJfBt9uffkuC3ULVjMVNHRTy2U","versionTime":"2026-02-23T13:47:38Z","parameters":{"method":"did:webvh:1.0","scid":"QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat","updateKeys":["z6MkmeHPNeK6hWb6FjXPCHys6YWkRBvfKo5jZPN7gHhFq6vV"],"portable":true,"nextKeyHashes":["QmVDidDVYBhETUQc5YBHNjDvUfvrynxeVHENh3ShaNzoAq"]},"state":{"@context":["https://www.w3.org/ns/did/v1","https://www.w3.org/ns/cid/v1"],"assertionMethod":["did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#key-0"],"authentication":["did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#key-0"],"id":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation","keyAgreement":["did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#key-1"],"service":[{"id":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#didcomm","serviceEndpoint":[{"accept":["didcomm/v2"],"uri":"did:webvh:Qme3Bt5iNrTyF9yQjrREMWfDs77hqkrix2extSa4LiXpcc:localhost%3A7037"}],"type":"DIDCommMessaging"},{"id":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#vta","serviceEndpoint":"http://localhost:8301","type":"VerifiableTrustAgent"}],"verificationMethod":[{"controller":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation","id":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#key-0","publicKeyMultibase":"z6MkmeHPNeK6hWb6FjXPCHys6YWkRBvfKo5jZPN7gHhFq6vV","type":"Multikey"},{"controller":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation","id":"did:webvh:QmcnASBYWZeoVEmKGrZVYTWWhh4CrYz3BCF2enBE64YXat:affrncsp.github.io:vta-did-ssivalidation#key-1","publicKeyMultibase":"z6LSjqhHPYrM8rZTVFPoHSaGGwHLSn516abReg4TyhMH9ro8","type":"Multikey"}]},"proof":[{"type":"DataIntegrityProof","cryptosuite":"eddsa-jcs-2022","created":"2026-02-23T13:47:38Z","verificationMethod":"did:key:z6MkmeHPNeK6hWb6FjXPCHys6YWkRBvfKo5jZPN7gHhFq6vV#z6MkmeHPNeK6hWb6FjXPCHys6YWkRBvfKo5jZPN7gHhFq6vV","proofPurpose":"assertionMethod","proofValue":"zC3JeJgwN7MZMTpKmGMnwMynXudevkm6KgDKS4WkWwRJbdN5vuzysJfYtNbY6NGBTTUyhJ7x9wkZjbcuyo7UMpnf"}]}
+{
+  "versionId": "1-QmXREtGiWHPHZn9kDhpbnQtxpocqqcvkTzDrAcKsPM8Mfn",
+  "versionTime": "2026-02-24T08:06:35Z",
+  "parameters": {
+    "method": "did:webvh:1.0",
+    "scid": "QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe",
+    "updateKeys": [
+      "z6Mkvv34N5TdmZJWqPiktJMmgXJDTxL8YwBG6WGgiiXkwfsg"
+    ],
+    "portable": true,
+    "nextKeyHashes": [
+      "z6MkkHvU9mKTJD1HDnMA1ZvNnLzYJLdD4b8deJa1XFdzJwKZ"
+    ]
+  },
+  "state": {
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://www.w3.org/ns/cid/v1"
+    ],
+    "assertionMethod": [
+      "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#key-0"
+    ],
+    "authentication": [
+      "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#key-0"
+    ],
+    "id": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation",
+    "keyAgreement": [
+      "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#key-1"
+    ],
+    "service": [
+      {
+        "id": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#service",
+        "serviceEndpoint": [
+          {
+            "accept": [
+              "didcomm/v2"
+            ],
+            "uri": "https://affrncsp.github.io/ssivalidation"
+          },
+          {
+            "accept": [
+              "didcomm/v2"
+            ],
+            "uri": "wss://affrncsp.github.io/ssivalidation/ws"
+          }
+        ],
+        "type": [
+          "DIDCommMessaging"
+        ]
+      },
+      {
+        "id": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#auth",
+        "serviceEndpoint": "https://affrncsp.github.io/ssivalidation/authenticate",
+        "type": [
+          "Authentication"
+        ]
+      }
+    ],
+    "verificationMethod": [
+      {
+        "controller": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation",
+        "id": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#key-0",
+        "publicKeyMultibase": "z6Mknhs5mAfdgsNT5kjwqq5YYiuf5F5QXBFQLXJk5UH2kFac",
+        "type": "Multikey"
+      },
+      {
+        "controller": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation",
+        "id": "did:webvh:QmYfkeFQTWCJCmn2ffVemFspWr9uuVsj6CYHHs3VjKRjwe:affrncsp.github.io:ssivalidation#key-1",
+        "publicKeyMultibase": "z6LSjguG1tW32rAtJS474Gq5y1pKtN6NoQiSaXv53T4hNiLz",
+        "type": "Multikey"
+      }
+    ]
+  },
+  "proof": [
+    {
+      "type": "DataIntegrityProof",
+      "cryptosuite": "eddsa-jcs-2022",
+      "created": "2026-02-24T08:06:35Z",
+      "verificationMethod": "did:key:z6Mkvv34N5TdmZJWqPiktJMmgXJDTxL8YwBG6WGgiiXkwfsg#z6Mkvv34N5TdmZJWqPiktJMmgXJDTxL8YwBG6WGgiiXkwfsg",
+      "proofPurpose": "assertionMethod",
+      "proofValue": "z4Vc4GLK952hD5PE9hbaYw96N6fZKXxtSRGCkMrD5bqQ8ZTEdGkrWNw66ML6Y7vrsT1cRaEvB8yVeRiRvpXCykyqn"
+    }
+  ]
+}
