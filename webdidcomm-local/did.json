@@ -1,0 +1,102 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "assertionMethod": [
+    "did:web:affrncsp.github.io/webdidcomm-local#key-1",
+    "did:web:affrncsp.github.io/webdidcomm-local#key-2"
+  ],
+  "authentication": [
+    "did:web:affrncsp.github.io/webdidcomm-local#key-1",
+    "did:web:affrncsp.github.io/webdidcomm-local#key-2"
+  ],
+  "id": "did:web:affrncsp.github.io/webdidcomm-local",
+  "keyAgreement": [
+    "did:web:affrncsp.github.io/webdidcomm-local#key-3",
+    "did:web:affrncsp.github.io/webdidcomm-local#key-4",
+    "did:web:affrncsp.github.io/webdidcomm-local#key-5"
+  ],
+  "service": [
+    {
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#service",
+      "serviceEndpoint": [
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "routingKeys": [],
+          "uri": "http://localhost:7037"
+        },
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "routingKeys": [],
+          "uri": "ws://localhost:7037/ws"
+        }
+      ],
+      "type": "DIDCommMessaging"
+    },
+    {
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#auth",
+      "serviceEndpoint": "http://localhost:7037/authenticate",
+      "type": "Authentication"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "controller": "did:web:affrncsp.github.io/webdidcomm-local",
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#key-1",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "c9cYKHm3FkAqiaIAnaerXZa3fHoMSoCdZAusKScsJ6k",
+        "y": "9sjlpaZexJal3WwZPDiD2cZXYn2ikWeyiYJQjm92rVk"
+      },
+      "type": "JsonWebKey2020"
+    },
+    {
+      "controller": "did:web:affrncsp.github.io/webdidcomm-local",
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#key-2",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "kty": "OKP",
+        "x": "azbXQnyRI3I6RUDxYDwvX3i4TB5VhdrMuUNzcrmRD8s"
+      },
+      "type": "JsonWebKey2020"
+    },
+    {
+      "controller": "did:web:affrncsp.github.io/webdidcomm-local",
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#key-3",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "OKyXQpeekXWDwCoUtmqB8Wx4me_Ouhc4bZgLA9mpfxk",
+        "y": "uNgyz0XZGiK1dBcFcljIxGTasdRdR2NXdcMv2zqkyTE"
+      },
+      "type": "JsonWebKey2020"
+    },
+    {
+      "controller": "did:web:affrncsp.github.io/webdidcomm-local",
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#key-4",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "33VXqYqc8YYoVFRHaez_sjK0vRnqIVaOyqSJ2sfmBB4",
+        "y": "qG_k9q0ElKgQQ2SoWmOeFEx4saLP0wS0ng2C_JjlgRA"
+      },
+      "type": "JsonWebKey2020"
+    },
+    {
+      "controller": "did:web:affrncsp.github.io/webdidcomm-local",
+      "id": "did:web:affrncsp.github.io/webdidcomm-local#key-5",
+      "publicKeyJwk": {
+        "crv": "X25519",
+        "kty": "OKP",
+        "x": "tky4859Q6X-EKcCKO_h7ATqi1-mGzfqEJLdeAJUzpAo"
+      },
+      "type": "JsonWebKey2020"
+    }
+  ]
+}
