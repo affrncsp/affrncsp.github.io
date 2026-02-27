@@ -1,0 +1,69 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "assertionMethod": [
+    "did:web:affrncsp.github.io:webdid-localmediator#key-1",
+    "did:web:affrncsp.github.io:webdid-localmediator#key-2"
+  ],
+  "authentication": [
+    "did:web:affrncsp.github.io:webdid-localmediator#key-1",
+    "did:web:affrncsp.github.io:webdid-localmediator#key-2"
+  ],
+  "id": "did:web:affrncsp.github.io:webdid-localmediator",
+  "keyAgreement": [
+    "did:web:affrncsp.github.io:webdid-localmediator#key-3",
+    "did:web:affrncsp.github.io:webdid-localmediator#key-4",
+    "did:web:affrncsp.github.io:webdid-localmediator#key-5"
+  ],
+  "service": [
+    {
+      "id": "did:web:affrncsp.github.io:webdid-localmediator#service",
+      "serviceEndpoint": [
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "routingKeys": [],
+          "uri": "http://localhost:7037/mediator/v1/"
+        },
+        {
+          "accept": [
+            "didcomm/v2"
+          ],
+          "routingKeys": [],
+          "uri": "ws://localhost:7037/mediator/v1/"
+        }
+      ],
+      "type": "DIDCommMessaging"
+    },
+    {
+      "id": "did:web:affrncsp.github.io:webdid-localmediator#auth",
+      "serviceEndpoint": "http://localhost:7037/mediator/v1/authenticate",
+      "type": "Authentication"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "controller": "did:web:affrncsp.github.io:webdid-localmediator",
+      "id": "did:web:affrncsp.github.io:webdid-localmediator#key-1",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "kty": "OKP",
+        "x": "AUN_FfXSeqErwS1PJApEuQsggaoZ3wMYQ8UhmBRSCKQ"
+      },
+      "type": "JsonWebKey2020"
+    },
+    {
+      "controller": "did:web:affrncsp.github.io:webdid-localmediator",
+      "id": "did:web:affrncsp.github.io:webdid-localmediator#key-2",
+      "publicKeyJwk": {
+        "crv": "X25519",
+        "kty": "OKP",
+        "x": "jmZI8bDSi0z2DoLLIhiZ8fhnDiNB3Gi64EGLTFAe-jQ"
+      },
+      "type": "JsonWebKey2020"
+    }
+  ]
+}
