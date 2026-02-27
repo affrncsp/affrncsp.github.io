@@ -4,18 +4,14 @@
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "assertionMethod": [
-    "did:web:affrncsp.github.io:webdid-localmediator#key-1",
-    "did:web:affrncsp.github.io:webdid-localmediator#key-2"
+    "did:web:affrncsp.github.io:webdid-localmediator#key-1"
   ],
   "authentication": [
-    "did:web:affrncsp.github.io:webdid-localmediator#key-1",
-    "did:web:affrncsp.github.io:webdid-localmediator#key-2"
+    "did:web:affrncsp.github.io:webdid-localmediator#key-1"
   ],
   "id": "did:web:affrncsp.github.io:webdid-localmediator",
   "keyAgreement": [
-    "did:web:affrncsp.github.io:webdid-localmediator#key-3",
-    "did:web:affrncsp.github.io:webdid-localmediator#key-4",
-    "did:web:affrncsp.github.io:webdid-localmediator#key-5"
+    "did:web:affrncsp.github.io:webdid-localmediator#key-2"
   ],
   "service": [
     {
@@ -51,7 +47,7 @@
       "publicKeyJwk": {
         "crv": "Ed25519",
         "kty": "OKP",
-        "x": "AUN_FfXSeqErwS1PJApEuQsggaoZ3wMYQ8UhmBRSCKQ"
+        "x": "uPj1CSnObm_iH9XqKK1RW4chPeijcov9nTcwWcv03Yg"
       },
       "type": "JsonWebKey2020"
     },
@@ -61,7 +57,7 @@
       "publicKeyJwk": {
         "crv": "X25519",
         "kty": "OKP",
-        "x": "jmZI8bDSi0z2DoLLIhiZ8fhnDiNB3Gi64EGLTFAe-jQ"
+        "x": "VAO5USB2xv1KoMl7OzHU0FxzlBCmjqZObC1KlK7ArEA"
       },
       "type": "JsonWebKey2020"
     }
