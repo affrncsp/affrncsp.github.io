@@ -4,7 +4,7 @@
     "https://www.w3.org/ns/cid/v1"
   ],
   "alsoKnownAs": [
-    "did:webvh:QmSrpLQWR93gxpQMeKCLTj4poV6kbamCn8L1jZyTQyGRLv:affrncsp.github.io:local-mediator"
+    "did:webvh:QmV9zwugbD6ZrepUhc3ZwvRUUyKnfQffmBAKgVrvn2nEPZ:affrncsp.github.io:local-mediator"
   ],
   "assertionMethod": [
     "did:web:affrncsp.github.io:local-mediator#key-0",
@@ -14,7 +14,7 @@
     "did:web:affrncsp.github.io:local-mediator#key-0",
     "did:web:affrncsp.github.io:local-mediator#key-1"
   ],
-  "controller": "did:webvh:QmSrpLQWR93gxpQMeKCLTj4poV6kbamCn8L1jZyTQyGRLv:affrncsp.github.io:local-mediator",
+  "controller": "did:webvh:QmV9zwugbD6ZrepUhc3ZwvRUUyKnfQffmBAKgVrvn2nEPZ:affrncsp.github.io:local-mediator",
   "id": "did:web:affrncsp.github.io:local-mediator",
   "keyAgreement": [
     "did:web:affrncsp.github.io:local-mediator#key-2",
@@ -29,20 +29,20 @@
           "accept": [
             "didcomm/v2"
           ],
-          "uri": "https://localhost:7037"
+          "uri": "http://localhost:7037"
         },
         {
           "accept": [
             "didcomm/v2"
           ],
-          "uri": "wss://localhost:7037/ws"
+          "uri": "ws://localhost:7037/ws"
         }
       ],
       "type": "DIDCommMessaging"
     },
     {
       "id": "did:web:affrncsp.github.io:local-mediator#auth",
-      "serviceEndpoint": "https://localhost:7037/authenticate",
+      "serviceEndpoint": "http://localhost:7037/authenticate",
       "type": "Authentication"
     },
     {
@@ -61,31 +61,31 @@
     {
       "controller": "did:web:affrncsp.github.io:local-mediator",
       "id": "did:web:affrncsp.github.io:local-mediator#key-0",
-      "publicKeyMultibase": "z6MkkrRuSAfUTkQ4tkP3SqkWwFoC4cjzehr3XkfiesCkERNU",
+      "publicKeyMultibase": "z6MkjJZewnjpXyJUmsSwGMHUMiEGG5SkKuxQa4huaqSoN6Gj",
       "type": "Multikey"
     },
     {
       "controller": "did:web:affrncsp.github.io:local-mediator",
       "id": "did:web:affrncsp.github.io:local-mediator#key-1",
-      "publicKeyMultibase": "zDnaewdAEMrT78M53TDAv7A2V5Zr1dNAkRh5HDKs7o5YhSrVv",
+      "publicKeyMultibase": "zDnaej4Tc9hR4TZbmP7skGYYnKAs587Hpqiwo3LENXc1zHjYX",
       "type": "Multikey"
     },
     {
       "controller": "did:web:affrncsp.github.io:local-mediator",
       "id": "did:web:affrncsp.github.io:local-mediator#key-2",
-      "publicKeyMultibase": "z6LSmqNEb5DaWk4qskYmWVvuvQRG8aByHEgHPxm8LWi6ncN7",
+      "publicKeyMultibase": "z6LSkRdFMUKLDWHm66SYqtjZNJ9WXCxrPkkQiA2EHjEN8s71",
       "type": "Multikey"
     },
     {
       "controller": "did:web:affrncsp.github.io:local-mediator",
       "id": "did:web:affrncsp.github.io:local-mediator#key-3",
-      "publicKeyMultibase": "zDnaeTvqp9KwumdQJfs7o4V8zTZmmUvYMjiRMm1PzY6bPLiuo",
+      "publicKeyMultibase": "zDnaefq6txFzG5TLHce8Rr2hoYYmzcJa8cdyB3Jreuh7kCuet",
       "type": "Multikey"
     },
     {
       "controller": "did:web:affrncsp.github.io:local-mediator",
       "id": "did:web:affrncsp.github.io:local-mediator#key-4",
-      "publicKeyMultibase": "zQ3shZuneyuYryZ4YWZ2awbCkyUDTaC6gqRCYdWrnA1MDvaKa",
+      "publicKeyMultibase": "zQ3shfXsu4rg4VZ2WqGaCRV5LYinPa1B9gK4fP6eYE3mLMPzw",
       "type": "Multikey"
     }
   ]
